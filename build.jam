@@ -7,11 +7,11 @@ import project ;
 
 project /boost/scope_exit
     : common-requirements
-        <source>/boost/config//boost_config
-        <source>/boost/function//boost_function
-        <source>/boost/preprocessor//boost_preprocessor
-        <source>/boost/type_traits//boost_type_traits
-        <source>/boost/typeof//boost_typeof
+        <library>/boost/config//boost_config
+        <library>/boost/function//boost_function
+        <library>/boost/preprocessor//boost_preprocessor
+        <library>/boost/type_traits//boost_type_traits
+        <library>/boost/typeof//boost_typeof
         <include>include
     ;
 
