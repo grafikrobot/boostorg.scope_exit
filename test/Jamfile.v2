@@ -11,8 +11,8 @@ import-search /boost/config/checks ;
 import config : requires ;
 
 project : requirements
-    <source>/boost/foreach//boost_foreach
-    <source>/boost/rational//boost_rational
+    <library>/boost/foreach//boost_foreach
+    <library>/boost/rational//boost_rational
     ;
 
 rule run-vaseq ( target : requirements * )
