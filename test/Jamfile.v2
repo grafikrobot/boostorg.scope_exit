@@ -11,6 +11,7 @@ import-search /boost/config/checks ;
 import config : requires ;
 
 project : requirements
+    <library>/boost/scope_exit//boost_scope_exit
     <library>/boost/foreach//boost_foreach
     <library>/boost/rational//boost_rational
     ;
