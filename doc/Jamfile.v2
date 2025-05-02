@@ -10,7 +10,7 @@ import quickbook ;
 using boostbook ;
 
 doxygen reference
-    :   ../../../boost/scope_exit.hpp
+    :   ../include/boost/scope_exit.hpp
     :   <reftitle>"Reference"
         <doxygen:param>PREDEFINED="DOXYGEN"
         <doxygen:param>QUIET=YES
